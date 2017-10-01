@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CharMovement : MonoBehaviour 
+public class CharMovementSlow : MonoBehaviour 
 {
 
 	public float jumpSpeed = 600.0f;
@@ -17,18 +17,18 @@ public class CharMovement : MonoBehaviour
 	void Awake()
 	{
 		anim = GetComponentInChildren<Animator>();
-        rb = GetComponent<Rigidbody>();
-		anim.SetBool("isIdle", true);
+		rb = GetComponent<Rigidbody>();
+		anim.SetBool("crippled", true);
 	}
 	void Start ()
 	{
-		
+
 	}
 	void FixedUpdate () 
 	{
 		grounded = Physics.CheckSphere(groundCheck.position, groundRadius, whatIsGround);
 		vSpeed = rb.velocity.y;
-        anim.SetFloat ("vSpeed", vSpeed);
+		anim.SetFloat ("vSpeed", vSpeed);
 	}
 	void Update () 
 	{
