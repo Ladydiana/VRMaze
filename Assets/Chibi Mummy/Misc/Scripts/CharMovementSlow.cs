@@ -48,7 +48,7 @@ public class CharMovementSlow : MonoBehaviour
 
 		{
 			transform.position += transform.forward * Time.deltaTime * movementSpeed;
-			Debug.Log ("Moving forward.");
+			//Debug.Log ("Moving forward.");
 		} 
 		else if (turnAroundX != 0 
 				&& Mathf.Round(transform.position.x) == turnAroundX ) 
@@ -56,7 +56,7 @@ public class CharMovementSlow : MonoBehaviour
 			
 			transform.Rotate (0, 90, 0,  Space.Self);
 			transform.position += transform.forward * Time.deltaTime * movementSpeed;
-			Debug.Log ("Rotating other side");
+			//Debug.Log ("Rotating other side");
 		}
 
 		else if (turnAroundX != 0 
@@ -64,7 +64,7 @@ public class CharMovementSlow : MonoBehaviour
 		{
 			transform.Rotate (0, -90, 0,  Space.Self);
 			transform.position += transform.forward * Time.deltaTime * movementSpeed;
-			Debug.Log("Rotating start");
+			//Debug.Log("Rotating start");
 		}
 			
 	}
