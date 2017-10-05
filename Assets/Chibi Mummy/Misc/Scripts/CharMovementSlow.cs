@@ -21,6 +21,7 @@ public class CharMovementSlow : MonoBehaviour
 	public float turnAroundX;
 	public float turnAroundStartX;
 	public float turnAroundZ;
+	private Vector3 lastPos;
 
 
 	void Awake()
@@ -53,8 +54,10 @@ public class CharMovementSlow : MonoBehaviour
 		else if (turnAroundX != 0 
 				&& Mathf.Round(transform.position.x) == turnAroundX ) 
 		{
-			
+			//lastPos = transform.position;
 			transform.Rotate (0, 90, 0,  Space.Self);
+			//transform.RotateAround(Vector3.zero, Vector3.up, 90);
+			//transform.position = lastPos;
 			transform.position += transform.forward * Time.deltaTime * movementSpeed;
 			//Debug.Log ("Rotating other side");
 		}
@@ -62,9 +65,17 @@ public class CharMovementSlow : MonoBehaviour
 		else if (turnAroundX != 0 
 				&& Mathf.Round(turnAroundStartX) == Mathf.Round(transform.position.x))
 		{
+			
+			//lastPos = transform.position;
+			//transform.RotateAround(Vector3.zero, Vector3.up, -90);
 			transform.Rotate (0, -90, 0,  Space.Self);
+
+			//transform.position = lastPos;
+
 			transform.position += transform.forward * Time.deltaTime * movementSpeed;
 			//Debug.Log("Rotating start");
+
+
 		}
 			
 	}

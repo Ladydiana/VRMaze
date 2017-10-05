@@ -43,6 +43,7 @@ public class Coin : MonoBehaviour
         // Make sure the poof animates vertically
         // Destroy this coin. Check the Unity documentation on how to use Destroy
 		Object.Instantiate(poof, transform.position, Quaternion.Euler(-90, 0, 0));
+		Counter.plusOne ();
 		Destroy(this.gameObject);
 
 	}
@@ -81,7 +82,7 @@ public class Coin : MonoBehaviour
 
 	public void Clicked()
 	{
-		Debug.Log ("Coin clicked");
+		//Debug.Log ("Coin clicked");
 		_audio_source.Play();
 		OnCoinClicked ();
 	}

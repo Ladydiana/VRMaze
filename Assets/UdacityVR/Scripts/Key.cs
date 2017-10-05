@@ -5,6 +5,10 @@ using UnityEngine;
 public class Key : MonoBehaviour 
 {
     //Create a reference to the KeyPoofPrefab and Door
+	public GameObject poof;
+	public AudioSource keySound;
+	public Door door;
+
 
 	void Update()
 	{
@@ -20,6 +24,12 @@ public class Key : MonoBehaviour
         // Call the Unlock() method on the Door
         // Set the Key Collected Variable to true
         // Destroy the key. Check the Unity documentation on how to use Destroy
+
+		keySound.Play ();
+		Object.Instantiate(poof, transform.position, Quaternion.Euler(-90, 0, 0));
+		door.Unlock ();
+		Destroy(this.gameObject);
+
     }
 
 }
