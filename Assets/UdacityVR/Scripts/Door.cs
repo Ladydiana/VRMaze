@@ -35,7 +35,7 @@ public class Door : MonoBehaviour
 			// if fully opened stop
 			//if (Mathf.Round (leftRotationZ) == 90 || Mathf.Round (rightRotationZ) == 90) {
 			//	Debug.Log (leftRotationZ + " " + rightRotationZ);
-			if(frame==700) {
+			if(frame==500) {
 				opening = false;
 				//GetComponent<Collider> ().isTrigger = false;
 				//enabled = false;
