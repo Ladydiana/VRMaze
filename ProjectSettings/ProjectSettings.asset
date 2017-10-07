@@ -141,7 +141,7 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
-    Android: com.Udacity.AMaze
+    Android: com.dianaculincu.Maze
     Standalone: com.Udacity.AMaze
     Tizen: com.Company.ProductName
     iOS: com.Udacity.AMaze

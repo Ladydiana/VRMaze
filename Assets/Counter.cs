@@ -22,7 +22,7 @@ public class Counter : MonoBehaviour {
 	}
 
 	void SetCountText() {
-		countText.text = "Coins: " + getCount ().ToString ()+ "   ";
+		countText.text = "\n\nCoins: " + getCount ().ToString ()+ "      ";
 	}
 
 	void Update()
