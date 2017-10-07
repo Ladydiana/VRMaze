@@ -5,3 +5,21 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 ## Versions
 - Unity 2017.1.0p4
 - GVR Unity SDK v1.70.0
+
+## Screenshots:
+
+## Functionalities:
+- added Egyptian music
+- added mummy NPCs + coded movement animations
+- coins animation rotation
+- key animation rotation
+- door opens normally, not up
++ coin score/counter in Game View 
+
+## Asset Store Props Packages used:
+- [Desert Kits 64 Sample](https://www.assetstore.unity3d.com/en/#!/content/86482) 
+- [Chibi Mummy](https://www.assetstore.unity3d.com/en/#!/content/60462)
+- [Desert Sandbox LITE](https://www.assetstore.unity3d.com/en/#!/content/25935)
+- [Yughues Free Pillars & Columns](https://www.assetstore.unity3d.com/en/#!/content/13103)
+- [Low Poly Free Pack](https://www.assetstore.unity3d.com/en/#!/content/63714)
+- [Sandstone Wall Construction Kit](https://www.assetstore.unity3d.com/en/#!/content/19235)
