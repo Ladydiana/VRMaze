@@ -9,7 +9,10 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 
 ## About:
 
-This is my Maze project, with a touch of ancient Egypt. Can you find the key to the secret Pharaoh's tomb? 
+This is my Maze project, with a touch of ancient Egypt. 
+
+Can you find the key to the secret Pharaoh's tomb? 
+
 The mummies are friendly ... or are they?
 
 ## Screenshots:
