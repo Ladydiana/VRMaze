@@ -7,6 +7,14 @@ This project is part of [Udacity](https://www.udacity.com "Udacity - Be in deman
 - GVR Unity SDK v1.70.0
 
 ## Screenshots:
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot1.PNG)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot4.PNG)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot5.PNG)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot7.PNG)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot8.PNG)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot12.png)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot11.png)
+![alt text](https://github.com/Ladydiana/VRMaze/blob/master/Screenshot10.PNG)
 
 ## Functionalities:
 - added Egyptian music
