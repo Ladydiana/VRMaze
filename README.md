@@ -33,7 +33,7 @@ The mummies are friendly ... or are they?
 - coins animation rotation
 - key animation rotation
 - door opens normally, not up
-- + coin score/counter in Game View 
+- coin score/counter in Game View 
 
 ## Asset Store Props Packages used:
 
